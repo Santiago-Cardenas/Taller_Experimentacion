@@ -1,0 +1,4 @@
+variante,minuto,muestras,exitosas,media_exitosas_ms,error_pct
+20 usuarios,1,3287,3287,1.22,0.0
+500 usuarios,4,36618,15967,2.55,56.4
+500 usuarios,5,43616,15,7.0,99.97

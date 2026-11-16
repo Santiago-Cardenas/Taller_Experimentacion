@@ -1,0 +1,12 @@
+,valor
+cpu_total_media,
+cpu_total_max,
+cpu_api_media,
+cpu_api_max,
+cpu_jmeter_media,
+cpu_jmeter_max,
+mem_api_inicio_mb,
+mem_api_max_mb,
+mem_api_fin_mb,
+mem_jmeter_max_mb,
+mem_equipo_pct_max,

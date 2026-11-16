@@ -1,0 +1,4 @@
+variante,minuto,muestras,exitosas,media_exitosas_ms,error_pct
+con temporizador,1,32435,18289,1.83,43.61
+sin temporizador,4,203406,13448,12.64,93.39
+sin temporizador,5,32548,136,69.79,99.58

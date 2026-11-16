@@ -1,0 +1,7 @@
+Etiqueta,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s)
+Pago [con temporizador],10745,2.1,4.0,15,44.27,181.5
+Pago [sin temporizador],78595,31.1,205.0,440,97.06,1309.2
+SeleccionTarifaYCantidad [con temporizador],10746,2.3,4.0,13,43.77,181.4
+SeleccionTarifaYCantidad [sin temporizador],78649,31.1,205.0,398,92.78,1310.1
+Tarifas [con temporizador],10944,1.9,3.0,20,42.82,182.9
+Tarifas [sin temporizador],78710,30.8,205.0,656,92.89,1311.1

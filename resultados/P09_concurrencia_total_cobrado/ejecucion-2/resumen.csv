@@ -1,0 +1,6 @@
+Etiqueta,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s)
+Pago [bajo carga],120997,4.8,22.0,268,97.97,2013.2
+Pago [control],4,3.0,3.8,4,25.0,1000.0
+SeleccionTarifaYCantidad [bajo carga],121097,4.9,22.0,336,94.37,2014.9
+SeleccionTarifaYCantidad [control],4,22.0,22.0,22,25.0,181.8
+Tarifas [bajo carga],121200,4.7,21.0,339,94.64,2016.4

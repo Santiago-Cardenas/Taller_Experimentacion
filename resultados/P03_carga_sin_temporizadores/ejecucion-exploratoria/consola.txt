@@ -1,0 +1,19 @@
+﻿WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using P03_carga_sin_temporizadores.jmx
+Starting standalone test @ 2026 Nov 16 13:05:43 COT (1794852343448)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +   6648 in 00:00:16 =  403.3/s Avg:     2 Min:     0 Max:    36 Err:  6285 (94.54%) Active: 200 Started: 200 Finished: 0
+summary +  17643 in 00:00:30 =  588.0/s Avg:     2 Min:     0 Max:    15 Err: 16660 (94.43%) Active: 200 Started: 200 Finished: 0
+summary =  24291 in 00:00:46 =  522.5/s Avg:     2 Min:     0 Max:    36 Err: 22945 (94.46%)
+summary + 105882 in 00:00:30 = 3530.7/s Avg:     3 Min:     0 Max:   147 Err: 101502 (95.86%) Active: 200 Started: 400 Finished: 200
+summary = 130173 in 00:01:16 = 1702.1/s Avg:     3 Min:     0 Max:   147 Err: 124447 (95.60%)
+summary + 174272 in 00:00:30 = 5809.1/s Avg:     4 Min:     0 Max:   233 Err: 169236 (97.11%) Active: 200 Started: 400 Finished: 200
+summary = 304445 in 00:01:46 = 2859.3/s Avg:     4 Min:     0 Max:   233 Err: 293683 (96.47%)
+summary +  65500 in 00:00:14 = 4788.7/s Avg:     9 Min:     0 Max:   139 Err: 63350 (96.72%) Active: 0 Started: 400 Finished: 400
+summary = 369945 in 00:02:00 = 3078.9/s Avg:     4 Min:     0 Max:   233 Err: 357033 (96.51%)
+Tidying up ...    @ 2026 Nov 16 13:07:43 COT (1794852463678)
+... end of run

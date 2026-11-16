@@ -1,0 +1,12 @@
+,valor
+cpu_total_media,8.3
+cpu_total_max,53.0
+cpu_api_media,0.0
+cpu_api_max,0.5
+cpu_jmeter_media,0.1
+cpu_jmeter_max,5.2
+mem_api_inicio_mb,11.0
+mem_api_max_mb,11.0
+mem_api_fin_mb,10.9
+mem_jmeter_max_mb,234.5
+mem_equipo_pct_max,72.6

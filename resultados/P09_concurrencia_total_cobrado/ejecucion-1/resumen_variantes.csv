@@ -1,0 +1,3 @@
+Variante,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s),Exitosas/s,Media exitosas (ms),Duración (s),Hilos máx.
+control,8,11.2,20.0,20,25.0,190.5,142.9,11.3,0.0,4
+bajo carga,261732,28.6,225.0,382,93.51,4357.0,282.8,13.8,60.1,300

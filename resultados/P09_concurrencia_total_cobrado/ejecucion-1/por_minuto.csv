@@ -1,0 +1,4 @@
+variante,minuto,muestras,exitosas,media_exitosas_ms,error_pct
+bajo carga,3,190010,14570,11.76,92.33
+bajo carga,4,71722,2418,26.16,96.63
+control,1,8,6,11.33,25.0

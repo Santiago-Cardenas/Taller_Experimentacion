@@ -1,0 +1,15 @@
+﻿WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using P09_concurrencia_total_cobrado.jmx
+Starting standalone test @ 2026 Nov 16 15:07:57 COT (1794859677371)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +  14664 in 00:02:33 =   96.1/s Avg:     1 Min:     0 Max:    40 Err: 13424 (91.54%) Active: 74 Started: 78 Finished: 4
+summary + 210604 in 00:00:30 = 7020.1/s Avg:     2 Min:     0 Max:   128 Err: 201310 (95.59%) Active: 300 Started: 304 Finished: 4
+summary = 225268 in 00:03:03 = 1234.0/s Avg:     2 Min:     0 Max:   128 Err: 214734 (95.32%)
+summary + 138034 in 00:00:28 = 4983.4/s Avg:     8 Min:     0 Max:   339 Err: 132790 (96.20%) Active: 0 Started: 304 Finished: 304
+summary = 363302 in 00:03:30 = 1727.9/s Avg:     4 Min:     0 Max:   339 Err: 347524 (95.66%)
+Tidying up ...    @ 2026 Nov 16 15:11:27 COT (1794859887702)
+... end of run

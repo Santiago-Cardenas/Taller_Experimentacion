@@ -1,0 +1,5 @@
+variante,minuto,muestras,exitosas,media_exitosas_ms,error_pct
+Seleccion (crea reserva),1,109789,8903,11.33,91.89
+Seleccion (crea reserva),2,32988,34,185.41,99.9
+Tarifas (solo lectura),1,109849,8790,11.23,92.0
+Tarifas (solo lectura),2,33026,47,161.49,99.86

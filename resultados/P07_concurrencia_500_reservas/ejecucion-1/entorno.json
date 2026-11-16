@@ -1,0 +1,12 @@
+﻿{
+    "equipo":  "13th Gen Intel(R) Core(TM) i5-13600K",
+    "java":  "openjdk version \"17.0.20.1\" 2026-08-18",
+    "duracion_s":  4,
+    "python":  "Python 3.12.6",
+    "repeticion":  "1",
+    "pregunta":  "P07_concurrencia_500_reservas",
+    "fin":  "2026-11-16T14:24:49",
+    "inicio":  "2026-11-16T14:24:46",
+    "ram_gb":  31.7,
+    "nucleos_logicos":  20
+}

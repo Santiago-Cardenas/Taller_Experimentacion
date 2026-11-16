@@ -1,0 +1,12 @@
+﻿{
+    "equipo":  "13th Gen Intel(R) Core(TM) i5-13600K",
+    "java":  "openjdk version \"17.0.20.1\" 2026-08-18",
+    "duracion_s":  189,
+    "python":  "Python 3.12.6",
+    "repeticion":  "1",
+    "pregunta":  "P02_carga_rampup_1_vs_60",
+    "fin":  "2026-11-16T13:05:21",
+    "inicio":  "2026-11-16T13:02:12",
+    "ram_gb":  31.7,
+    "nucleos_logicos":  20
+}

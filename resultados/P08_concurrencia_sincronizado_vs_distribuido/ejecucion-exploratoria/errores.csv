@@ -1,0 +1,4 @@
+label,mensaje,cantidad
+SeleccionTarifaYCantidad [sincronizados],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,193
+Pago [sincronizados],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,190
+Pago [sincronizados],404 · Not Found · No results for path: $['estado'],10

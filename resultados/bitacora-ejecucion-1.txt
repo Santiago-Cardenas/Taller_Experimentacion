@@ -1,0 +1,317 @@
+﻿puertos en TIME_WAIT: 1 (listo)
+===== P01_carga_20_vs_500_usuarios (ejecución 1) · 13:35:13 =====
+
+summary +  27052 in 00:00:19 = 1443.8/s Avg:     7 Min:     1 Max:    39 Err: 27048 (99.99%) Active: 0 Started: 520 
+Finished: 520
+summary =  83521 in 00:04:30 =  309.1/s Avg:     6 Min:     0 Max:    39 Err: 64252 (76.93%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P01_carga_20_vs_500_usuarios\ejecucion-1
+                               Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                     Pago [20 usuarios]      1089         1.1       2.0         3     0.00              18.5
+                    Pago [500 usuarios]     26576         6.5      16.0        34    83.11             448.0
+ SeleccionTarifaYCantidad [20 usuarios]      1089         1.5       2.0         3     0.00              18.5
+SeleccionTarifaYCantidad [500 usuarios]     26583         6.7      19.0        39    79.25             448.1
+                  Tarifas [20 usuarios]      1109         1.0       2.0        13     0.00              18.5
+                 Tarifas [500 usuarios]     27075         6.2      18.0        35    77.92             449.8
+
+    Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+ 20 usuarios      3287         1.2       2.0        13     0.00              54.9          59.9          20
+500 usuarios     80234         6.5      18.0        39    80.08            1332.8          60.2         500
+
+Errores:
+                                  label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+SeleccionTarifaYCantidad [500 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      20023
+                    Pago [500 usuarios]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     20017
+                 Tarifas [500 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      20010
+                    Pago [500 usuarios] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.      1679
+                 Tarifas [500 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·       1088
+SeleccionTarifaYCantidad [500 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·       1044
+                    Pago [500 usuarios]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']       391
+
+Recursos: {'cpu_total_media': 7.1, 'cpu_total_max': 30, 'cpu_api_media': 0.3, 'cpu_api_max': 7.9, 'cpu_jmeter_media': 2.6, 'cpu_jmeter_max': 26.8, 'mem_api_inicio_mb': 10.8, 'mem_api_max_mb': 11.2, 'mem_api_fin_mb': 11.2, 'mem_jmeter_max_mb': 851.0, 'mem_equipo_pct_max': 68.1}
+puertos en TIME_WAIT: 17 (listo)
+===== P02_carga_rampup_1_vs_60 (ejecución 1) · 13:41:14 =====
+summary +  16351 in 00:00:19 =  879.1/s Avg:     3 Min:     1 Max:    24 Err: 16350 (99.99%) Active: 0 Started: 600 
+Finished: 600
+summary = 132273 in 00:05:30 =  400.6/s Avg:     3 Min:     0 Max:   102 Err: 97259 (73.53%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P02_carga_rampup_1_vs_60\ejecucion-1
+                              Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                     Pago [subida 1 s]     26252         3.3      10.0        23    79.85             294.3
+                    Pago [subida 60 s]     17635         2.9      10.0        24    66.18             197.9
+ SeleccionTarifaYCantidad [subida 1 s]     26257         3.2       9.0        26    78.63             294.3
+SeleccionTarifaYCantidad [subida 60 s]     17643         3.0       9.0        24    65.83             198.0
+                  Tarifas [subida 1 s]     26552         3.1       9.0       102    78.02             295.6
+                 Tarifas [subida 60 s]     17934         2.6       8.0        25    64.97             199.1
+
+   Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+ subida 1 s     79061         3.2       9.0       102    78.83             880.2          89.8         300
+subida 60 s     53212         2.8       9.0        25    65.65             590.8          90.1         300
+
+Errores:
+                                 label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+ SeleccionTarifaYCantidad [subida 1 s]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      20423
+                     Pago [subida 1 s]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     20420
+                  Tarifas [subida 1 s]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      20418
+                 Tarifas [subida 60 s]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      11603
+SeleccionTarifaYCantidad [subida 60 s]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      11555
+                    Pago [subida 60 s]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     11550
+                     Pago [subida 1 s] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.       408
+                  Tarifas [subida 1 s]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        297
+ SeleccionTarifaYCantidad [subida 1 s]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        224
+                     Pago [subida 1 s]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']       133
+                    Pago [subida 60 s] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.        76
+SeleccionTarifaYCantidad [subida 60 s]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·         60
+                 Tarifas [subida 60 s]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·         48
+                    Pago [subida 60 s]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']        44
+
+Recursos: {'cpu_total_media': 6.8, 'cpu_total_max': 29, 'cpu_api_media': 0.3, 'cpu_api_max': 7.2, 'cpu_jmeter_media': 3.1, 'cpu_jmeter_max': 16.8, 'mem_api_inicio_mb': 11.0, 'mem_api_max_mb': 11.1, 'mem_api_fin_mb': 11.1, 'mem_jmeter_max_mb': 824.5, 'mem_equipo_pct_max': 68.2}
+puertos en TIME_WAIT: 3 (listo)
+===== P03_carga_sin_temporizadores (ejecución 1) · 13:48:12 =====
+summary +  17426 in 00:00:17 = 1012.5/s Avg:   198 Min:     3 Max:   400 Err: 17423 (99.98%) Active: 0 Started: 400 
+Finished: 400
+summary = 268389 in 00:04:30 =  993.6/s Avg:    27 Min:     0 Max:   656 Err: 236516 (88.12%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P03_carga_sin_temporizadores\ejecucion-1
+                                   Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                    Pago [con temporizador]     10745         2.1       4.0        15    44.27             181.5
+                    Pago [sin temporizador]     78595        31.1     205.0       440    97.06            1309.2
+SeleccionTarifaYCantidad [con temporizador]     10746         2.3       4.0        13    43.77             181.4
+SeleccionTarifaYCantidad [sin temporizador]     78649        31.1     205.0       398    92.78            1310.1
+                 Tarifas [con temporizador]     10944         1.9       3.0        20    42.82             182.9
+                 Tarifas [sin temporizador]     78710        30.8     205.0       656    92.89            1311.1
+
+        Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+con temporizador     32435         2.1       4.0        20    43.61             542.0          59.8         200
+sin temporizador    235954        31.0     205.0       656    94.24            3930.3          60.0         200
+
+Errores:
+                                      label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+                 Tarifas [sin temporizador]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·      63020
+SeleccionTarifaYCantidad [sin temporizador]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·      62844
+                    Pago [sin temporizador] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     62809
+                    Pago [sin temporizador]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     10125
+SeleccionTarifaYCantidad [sin temporizador]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      10125
+                 Tarifas [sin temporizador]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      10094
+                    Pago [con temporizador]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.      4650
+SeleccionTarifaYCantidad [con temporizador]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·       4649
+                 Tarifas [con temporizador]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·       4648
+                    Pago [sin temporizador]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']      3353
+                    Pago [con temporizador] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.        70
+SeleccionTarifaYCantidad [con temporizador]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·         54
+                 Tarifas [con temporizador]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·         38
+                    Pago [con temporizador]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']        37
+
+Recursos: {'cpu_total_media': 8.6, 'cpu_total_max': 44, 'cpu_api_media': 0.4, 'cpu_api_max': 5.2, 'cpu_jmeter_media': 4.7, 'cpu_jmeter_max': 36.8, 'mem_api_inicio_mb': 11.0, 'mem_api_max_mb': 12.4, 'mem_api_fin_mb': 12.4, 'mem_jmeter_max_mb': 814.8, 'mem_equipo_pct_max': 68.7}
+puertos en TIME_WAIT: 359 (listo)
+===== P04_estres_escalones (ejecución 1) · 13:54:17 =====
+summary +  31981 in 00:00:22 = 1450.6/s Avg:     7 Min:     1 Max:    41 Err: 31978 (99.99%) Active: 0 Started: 900 
+Finished: 900
+summary = 145685 in 00:11:30 =  211.1/s Avg:     4 Min:     0 Max:    41 Err: 88392 (60.67%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P04_estres_escalones\ejecucion-1
+                               Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                    Pago [050 usuarios]      2717         1.1       2.0         7     0.00              46.3
+                    Pago [100 usuarios]      5426         1.3       2.0         4     0.13              91.8
+                    Pago [250 usuarios]     13495         2.5       7.0        24    60.42             227.3
+                    Pago [500 usuarios]     26622         6.5      16.0        32    83.36             448.0
+SeleccionTarifaYCantidad [050 usuarios]      2719         1.4       2.0         7     0.00              46.3
+SeleccionTarifaYCantidad [100 usuarios]      5427         1.6       3.0         5     0.02              91.8
+SeleccionTarifaYCantidad [250 usuarios]     13495         2.5       5.0        24    58.38             227.3
+SeleccionTarifaYCantidad [500 usuarios]     26628         6.7      19.0        41    79.05             448.0
+                 Tarifas [050 usuarios]      2767         1.0       2.0        15     0.00              46.2
+                 Tarifas [100 usuarios]      5526         1.2       2.0         4     0.02              92.1
+                 Tarifas [250 usuarios]     13745         2.2       5.0        22    57.59             229.0
+                 Tarifas [500 usuarios]     27118         6.2      18.0        33    78.15             451.7
+
+    Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+050 usuarios      8203         1.2       2.0        15     0.00             136.9          59.9          50
+100 usuarios     16379         1.4       2.0         5     0.05             272.9          60.0         100
+250 usuarios     40735         2.4       6.0        24    58.79             678.7          60.0         250
+500 usuarios     80368         6.5      18.0        41    80.17            1338.2          60.1         500
+
+Errores:
+                                  label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+SeleccionTarifaYCantidad [500 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      20117
+                    Pago [500 usuarios]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     20109
+                 Tarifas [500 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      20102
+                 Tarifas [250 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·       7783
+SeleccionTarifaYCantidad [250 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·       7781
+                    Pago [250 usuarios]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.      7780
+                    Pago [500 usuarios] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.      1832
+                 Tarifas [500 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·       1091
+SeleccionTarifaYCantidad [500 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        933
+                    Pago [250 usuarios] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.       344
+                    Pago [500 usuarios]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']       250
+                 Tarifas [250 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        133
+SeleccionTarifaYCantidad [250 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·         98
+                    Pago [250 usuarios]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']        30
+                    Pago [100 usuarios] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.         6
+
+Recursos: {'cpu_total_media': 4.9, 'cpu_total_max': 29, 'cpu_api_media': 0.3, 'cpu_api_max': 8.0, 'cpu_jmeter_media': 1.3, 'cpu_jmeter_max': 21.2, 'mem_api_inicio_mb': 11.1, 'mem_api_max_mb': 12.0, 'mem_api_fin_mb': 12.0, 'mem_jmeter_max_mb': 812.1, 'mem_equipo_pct_max': 68.4}
+puertos en TIME_WAIT: 15 (listo)
+===== P05_estres_duracion_1_vs_10_min (ejecución 1) · 14:07:16 =====
+summary +   6172 in 00:00:21 =  297.2/s Avg:     1 Min:     0 Max:     9 Err:  6164 (99.87%) Active: 0 Started: 200 
+Finished: 200
+summary = 192967 in 00:13:30 =  238.2/s Avg:     1 Min:     0 Max:    53 Err: 69523 (36.03%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P05_estres_duracion_1_vs_10_min\ejecucion-1
+                         Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                     Pago [1 min]      5389         1.3       2.0         6     0.30              91.0
+                    Pago [10 min]     58866         1.6       3.0        45    39.56              98.2
+ SeleccionTarifaYCantidad [1 min]      5389         1.6       3.0         8     0.13              90.9
+SeleccionTarifaYCantidad [10 min]     58868         1.9       3.0        53    39.18              98.2
+                  Tarifas [1 min]      5489         1.2       2.0        15     0.11              91.7
+                 Tarifas [10 min]     58966         1.4       3.0        42    39.24              98.3
+
+Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+   1 min     16267         1.4       2.0        15     0.18             271.7          59.9         100
+  10 min    176700         1.6       3.0        53    39.33             294.5         600.0         100
+
+Errores:
+                            label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+                 Tarifas [10 min]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      23110
+SeleccionTarifaYCantidad [10 min]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      23047
+                    Pago [10 min]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     23026
+                    Pago [10 min]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']       215
+                    Pago [10 min] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.        49
+                 Tarifas [10 min]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·         27
+SeleccionTarifaYCantidad [10 min]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·         20
+                     Pago [1 min] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.        13
+ SeleccionTarifaYCantidad [1 min]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·          7
+                  Tarifas [1 min]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·          6
+                     Pago [1 min]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']         3
+
+Recursos: {'cpu_total_media': 5.5, 'cpu_total_max': 36, 'cpu_api_media': 0.5, 'cpu_api_max': 4.1, 'cpu_jmeter_media': 1.3, 'cpu_jmeter_max': 13.2, 'mem_api_inicio_mb': 10.9, 'mem_api_max_mb': 11.2, 'mem_api_fin_mb': 11.2, 'mem_jmeter_max_mb': 776.3, 'mem_equipo_pct_max': 68.4}
+puertos en TIME_WAIT: 11 (listo)
+===== P06_estres_tarifas_vs_seleccion (ejecución 1) · 14:22:10 =====
+summary +  18823 in 00:00:15 = 1227.2/s Avg:   163 Min:     1 Max:   221 Err: 18783 (99.79%) Active: 0 Started: 200 
+Finished: 200
+summary = 285652 in 00:02:00 = 2378.8/s Avg:    67 Min:     0 Max:   560 Err: 267878 (93.78%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P06_estres_tarifas_vs_seleccion\ejecucion-1
+                Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+Seleccion (crea reserva)    142777        68.2     208.0       432    93.74            1190.9
+  Tarifas (solo lectura)    142875        67.7     208.0       560    93.81            1191.6
+
+                Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+  Tarifas (solo lectura)    142875        67.7     208.0       560    93.81            1191.6         119.9         200
+Seleccion (crea reserva)    142777        68.2     208.0       432    93.74            1190.9         119.9         200
+
+Errores:
+                   label                                                                                                                                                                          mensaje  cantidad
+  Tarifas (solo lectura) Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·      82499
+Seleccion (crea reserva) Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·      82310
+  Tarifas (solo lectura)                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      51526
+Seleccion (crea reserva)                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      51514
+Seleccion (crea reserva)                                                                        Non HTTP response code: java.net.SocketException · Non HTTP response message: Connection reset by peer ·         16
+  Tarifas (solo lectura)                                                                        Non HTTP response code: java.net.SocketException · Non HTTP response message: Connection reset by peer ·         13
+
+Recursos: {'cpu_total_media': 20.2, 'cpu_total_max': 61, 'cpu_api_media': 0.5, 'cpu_api_max': 4.3, 'cpu_jmeter_media': 12.3, 'cpu_jmeter_max': 37.9, 'mem_api_inicio_mb': 11.7, 'mem_api_max_mb': 14.3, 'mem_api_fin_mb': 14.3, 'mem_jmeter_max_mb': 869.9, 'mem_equipo_pct_max': 70.9}
+puertos en TIME_WAIT: 135 (listo)
+===== P07_concurrencia_500_reservas (ejecución 1) · 14:24:42 =====
+summary =   1000 in 00:00:01 = 1345.9/s Avg:    50 Min:     0 Max:   224 Err:   991 (99.10%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P07_concurrencia_500_reservas\ejecucion-1
+                               Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                    Pago [500 a la vez]       500         3.3      13.0        34     99.8            4032.3
+SeleccionTarifaYCantidad [500 a la vez]       500        96.7     112.0       224     98.4            2202.6
+
+    Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+500 a la vez      1000        50.0     110.0       224     99.1            2584.0           0.4         500
+
+Errores:
+                                  label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+SeleccionTarifaYCantidad [500 a la vez]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        492
+                    Pago [500 a la vez] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.       420
+                    Pago [500 a la vez]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']        79
+
+Recursos: {'cpu_total_media': nan, 'cpu_total_max': nan, 'cpu_api_media': nan, 'cpu_api_max': nan, 'cpu_jmeter_media': nan, 'cpu_jmeter_max': nan, 'mem_api_inicio_mb': None, 'mem_api_max_mb': nan, 'mem_api_fin_mb': None, 'mem_jmeter_max_mb': nan, 'mem_equipo_pct_max': nan}
+puertos en TIME_WAIT: 147 (listo)
+===== P08_concurrencia_sincronizado_vs_distribuido (ejecución 1) · 14:25:06 =====
+summary +     23 in 00:00:01 =   20.8/s Avg:     1 Min:     1 Max:     2 Err:     0 (0.00%) Active: 0 Started: 400 
+Finished: 400
+summary =    800 in 00:02:50 =    4.7/s Avg:    14 Min:     0 Max:    99 Err:   388 (48.50%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P08_concurrencia_sincronizado_vs_distribuido\ejecucion-1
+                                Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                     Pago [distribuidos]       200         1.2       2.0         3      0.0              10.0
+                    Pago [sincronizados]       200         1.8       9.0        17     98.0            5263.2
+ SeleccionTarifaYCantidad [distribuidos]       200         1.6       2.0         4      0.0              10.0
+SeleccionTarifaYCantidad [sincronizados]       200        53.6      54.0        99     96.0            2020.2
+
+     Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+sincronizados       400        27.7      54.0        99     97.0            2424.2           0.2         200
+ distribuidos       400         1.4       2.0         4      0.0              20.1          19.9           1
+
+Errores:
+                                   label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+SeleccionTarifaYCantidad [sincronizados]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        192
+                    Pago [sincronizados] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.       169
+                    Pago [sincronizados]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']        27
+
+Recursos: {'cpu_total_media': 8.3, 'cpu_total_max': 53, 'cpu_api_media': 0.0, 'cpu_api_max': 0.5, 'cpu_jmeter_media': 0.1, 'cpu_jmeter_max': 5.2, 'mem_api_inicio_mb': 11.0, 'mem_api_max_mb': 11.0, 'mem_api_fin_mb': 10.9, 'mem_jmeter_max_mb': 234.5, 'mem_equipo_pct_max': 72.6}
+puertos en TIME_WAIT: 381 (listo)
+===== P09_concurrencia_total_cobrado (ejecución 1) · 14:28:19 =====
+summary +  51276 in 00:00:25 = 2079.7/s Avg:   119 Min:     0 Max:   382 Err: 50247 (97.99%) Active: 0 Started: 304 
+Finished: 304
+summary = 261740 in 00:03:30 = 1245.1/s Avg:    28 Min:     0 Max:   382 Err: 244746 (93.51%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P09_concurrencia_total_cobrado\ejecucion-1
+                             Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                    Pago [bajo carga]     87142        28.8     230.0       373    96.37            1450.8
+                       Pago [control]         4         2.5       3.0         3    25.00            1333.3
+SeleccionTarifaYCantidad [bajo carga]     87237        28.9     229.0       382    91.98            1452.4
+   SeleccionTarifaYCantidad [control]         4        20.0      20.0        20    25.00             200.0
+                 Tarifas [bajo carga]     87353        28.2     220.0       380    92.18            1454.2
+
+  Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+   control         8        11.2      20.0        20    25.00             190.5           0.0           4
+bajo carga    261732        28.6     225.0       382    93.51            4357.0          60.1         300
+
+Errores:
+                                label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+                 Tarifas [bajo carga]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·      67981
+SeleccionTarifaYCantidad [bajo carga]  Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['total'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     67777
+                    Pago [bajo carga] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     67775
+                 Tarifas [bajo carga]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      12541
+                    Pago [bajo carga]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     12484
+SeleccionTarifaYCantidad [bajo carga]                                                                    Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['total'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     12465
+                    Pago [bajo carga]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']      3721
+                       Pago [control]                                                                                                                                                                                                                                                                                                                                                                                200 · OK ·          1
+   SeleccionTarifaYCantidad [control]                                                                                                                                                                                                                                                                                                   201 · Created · Value in json path '$.total' expected to be '600000', but found '700000'         1
+
+Recursos: {'cpu_total_media': 22.5, 'cpu_total_max': 58, 'cpu_api_media': 0.4, 'cpu_api_max': 4.2, 'cpu_jmeter_media': 6.4, 'cpu_jmeter_max': 39.0, 'mem_api_inicio_mb': 11.0, 'mem_api_max_mb': 12.7, 'mem_api_fin_mb': 12.7, 'mem_jmeter_max_mb': 890.7, 'mem_equipo_pct_max': 72.5}
+puertos en TIME_WAIT: 14 (listo)
+===== P10_recursos_500_usuarios (ejecución 1) · 14:33:36 =====
+summary +  15957 in 00:00:11 = 1451.7/s Avg:     7 Min:     1 Max:    34 Err: 15954 (99.98%) Active: 0 Started: 520 
+Finished: 520
+summary = 156192 in 00:05:30 =  473.1/s Avg:     6 Min:     0 Max:    40 Err: 136628 (87.47%)
+Listo: C:\Users\santi\OneDrive\Documentos\Icesi\Semestre 
+10\TecnicasTest\Talleres\jmeter-experimentacion\resultados\P10_recursos_500_usuarios\ejecucion-1
+                               Etiqueta  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)
+                    Pago [020 usuarios]      1075         1.2       2.0         3     0.00              18.3
+                    Pago [500 usuarios]     50815         6.7      16.0        36    90.18             425.6
+SeleccionTarifaYCantidad [020 usuarios]      1075         1.7       2.0        10     0.00              18.3
+SeleccionTarifaYCantidad [500 usuarios]     50818         7.2      19.0        39    89.25             425.6
+                 Tarifas [020 usuarios]      1095         1.1       2.0        15     0.00              18.3
+                 Tarifas [500 usuarios]     51314         6.1      17.0        40    88.57             427.1
+
+    Variante  Muestras  Media (ms)  p95 (ms)  Máx (ms)  % Error  Rendimiento (/s)  Duración (s)  Hilos máx.
+020 usuarios      3245         1.3       2.0        15     0.00              54.2          59.9          20
+500 usuarios    152947         6.7      17.0        40    89.33            1272.9         120.2         500
+
+Errores:
+                                  label                                                                                                                                                                                                                                                                                                                                                                                    mensaje  cantidad
+                 Tarifas [500 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      45045
+SeleccionTarifaYCantidad [500 usuarios]                                                                                                                                                                                                                                                                             Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect ·      45004
+                    Pago [500 usuarios]                                                                   Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.     44995
+                    Pago [500 usuarios] Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.       688
+                 Tarifas [500 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        404
+SeleccionTarifaYCantidad [500 usuarios]                                                                                                                                                                                                           Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect ·        350
+                    Pago [500 usuarios]                                                                                                                                                                                                                                                                                                                                         404 · Not Found · No results for path: $['estado']       142
+
+Recursos: {'cpu_total_media': 18.9, 'cpu_total_max': 50, 'cpu_api_media': 0.2, 'cpu_api_max': 7.7, 'cpu_jmeter_media': 4.1, 'cpu_jmeter_max': 29.2, 'mem_api_inicio_mb': 11.1, 'mem_api_max_mb': 11.3, 'mem_api_fin_mb': 11.3, 'mem_jmeter_max_mb': 841.0, 'mem_equipo_pct_max': 70.8}
+===== FIN 14:39:37 =====
+
+

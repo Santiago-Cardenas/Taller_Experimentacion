@@ -1,0 +1,3 @@
+Etiqueta,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s)
+Pago [500 a la vez],500,32.8,41.0,71,100.0,6666.7
+SeleccionTarifaYCantidad [500 a la vez],500,100.1,108.0,205,98.6,2415.5

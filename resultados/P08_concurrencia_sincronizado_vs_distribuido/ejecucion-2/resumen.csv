@@ -1,0 +1,5 @@
+Etiqueta,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s)
+Pago [distribuidos],200,1.4,2.0,7,0.0,10.0
+Pago [sincronizados],200,1.8,12.0,16,99.0,5405.4
+SeleccionTarifaYCantidad [distribuidos],200,2.0,3.0,5,0.0,10.0
+SeleccionTarifaYCantidad [sincronizados],200,75.8,78.0,132,96.0,1481.5

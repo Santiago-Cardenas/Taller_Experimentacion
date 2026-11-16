@@ -1,0 +1,12 @@
+﻿{
+    "equipo":  "13th Gen Intel(R) Core(TM) i5-13600K",
+    "java":  "openjdk version \"17.0.20.1\" 2026-08-18",
+    "duracion_s":  285,
+    "python":  "Python 3.12.6",
+    "repeticion":  "1",
+    "pregunta":  "P03_carga_sin_temporizadores",
+    "fin":  "2026-11-16T13:53:01",
+    "inicio":  "2026-11-16T13:48:16",
+    "ram_gb":  31.7,
+    "nucleos_logicos":  20
+}

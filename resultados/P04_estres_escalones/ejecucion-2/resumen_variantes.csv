@@ -1,0 +1,5 @@
+Variante,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s),Exitosas/s,Media exitosas (ms),Duración (s),Hilos máx.
+050 usuarios,8159,1.7,3.0,32,0.02,136.3,136.3,1.7,59.9,50
+100 usuarios,16244,1.7,3.0,28,0.16,270.7,270.3,1.7,60.0,100
+250 usuarios,40696,2.8,7.0,22,60.71,677.4,266.1,2.4,60.1,250
+500 usuarios,80416,6.0,15.0,54,80.17,1339.1,265.5,3.2,60.1,500

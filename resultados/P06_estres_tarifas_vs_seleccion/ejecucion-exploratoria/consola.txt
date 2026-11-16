@@ -1,0 +1,19 @@
+﻿WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using P06_estres_tarifas_vs_seleccion.jmx
+Starting standalone test @ 2026 Nov 16 13:24:27 COT (1794853467167)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +  11259 in 00:00:03 = 4060.2/s Avg:     4 Min:     0 Max:    75 Err:  8884 (78.91%) Active: 54 Started: 54 Finished: 0
+summary +  78619 in 00:00:30 = 2620.6/s Avg:    52 Min:     0 Max:   737 Err: 73476 (93.46%) Active: 200 Started: 200 Finished: 0
+summary =  89878 in 00:00:33 = 2742.4/s Avg:    46 Min:     0 Max:   737 Err: 82360 (91.64%)
+summary +  98713 in 00:00:30 = 3290.4/s Avg:    45 Min:     0 Max:  1008 Err: 94384 (95.61%) Active: 200 Started: 200 Finished: 0
+summary = 188591 in 00:01:03 = 3004.3/s Avg:    46 Min:     0 Max:  1008 Err: 176744 (93.72%)
+summary + 111120 in 00:00:30 = 3704.0/s Avg:    34 Min:     0 Max:  1263 Err: 105694 (95.12%) Active: 200 Started: 200 Finished: 0
+summary = 299711 in 00:01:33 = 3230.6/s Avg:    41 Min:     0 Max:  1263 Err: 282438 (94.24%)
+summary +  27538 in 00:00:27 = 1007.4/s Avg:   198 Min:     0 Max:   383 Err: 27523 (99.95%) Active: 0 Started: 200 Finished: 200
+summary = 327249 in 00:02:00 = 2724.6/s Avg:    55 Min:     0 Max:  1263 Err: 309961 (94.72%)
+Tidying up ...    @ 2026 Nov 16 13:26:27 COT (1794853587337)
+... end of run

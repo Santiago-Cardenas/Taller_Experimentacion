@@ -1,0 +1,50 @@
+{
+  "Tarifas (solo lectura)" : {
+    "transaction" : "Tarifas (solo lectura)",
+    "sampleCount" : 142875,
+    "errorCount" : 134038,
+    "errorPct" : 93.81487,
+    "meanResTime" : 67.67193000874944,
+    "medianResTime" : 203.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 560.0,
+    "pct1ResTime" : 210.0,
+    "pct2ResTime" : 214.0,
+    "pct3ResTime" : 221.0,
+    "throughput" : 1191.5882004620403,
+    "receivedKBytesPerSec" : 2753.3276573042376,
+    "sentKBytesPerSec" : 9.356602967607149
+  },
+  "Seleccion (crea reserva)" : {
+    "transaction" : "Seleccion (crea reserva)",
+    "sampleCount" : 142777,
+    "errorCount" : 133840,
+    "errorPct" : 93.740585,
+    "meanResTime" : 68.15977363300891,
+    "medianResTime" : 203.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 432.0,
+    "pct1ResTime" : 210.0,
+    "pct2ResTime" : 214.0,
+    "pct3ResTime" : 220.0,
+    "throughput" : 1190.9397260731027,
+    "receivedKBytesPerSec" : 2735.5943387103166,
+    "sentKBytesPerSec" : 17.844727556282635
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 285652,
+    "errorCount" : 267878,
+    "errorPct" : 93.77774,
+    "meanResTime" : 67.91576813745434,
+    "medianResTime" : 203.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 560.0,
+    "pct1ResTime" : 207.0,
+    "pct2ResTime" : 208.0,
+    "pct3ResTime" : 210.0,
+    "throughput" : 2382.359073584481,
+    "receivedKBytesPerSec" : 5488.534139966264,
+    "sentKBytesPerSec" : 27.19880047569702
+  }
+}

@@ -1,0 +1,5 @@
+label,mensaje,cantidad
+Tarifas (solo lectura),Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,99083
+Seleccion (crea reserva),Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,98990
+Tarifas (solo lectura),Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,56056
+Seleccion (crea reserva),Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,55832

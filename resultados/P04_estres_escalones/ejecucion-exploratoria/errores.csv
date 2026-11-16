@@ -1,0 +1,22 @@
+label,mensaje,cantidad
+Tarifas [500 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,23531
+SeleccionTarifaYCantidad [500 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,23113
+Pago [500 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,23105
+Tarifas [250 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,12146
+Pago [250 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,11869
+SeleccionTarifaYCantidad [250 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,11861
+Tarifas [100 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,1094
+SeleccionTarifaYCantidad [100 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,1094
+Pago [100 usuarios],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,1093
+Pago [500 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,359
+Tarifas [500 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,309
+SeleccionTarifaYCantidad [500 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,253
+Pago [500 usuarios],404 · Not Found · No results for path: $['estado'],116
+Pago [250 usuarios],404 · Not Found · No results for path: $['estado'],47
+Tarifas [050 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,9
+SeleccionTarifaYCantidad [050 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,9
+Pago [050 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,9
+Pago [250 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2
+SeleccionTarifaYCantidad [250 usuarios],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,1
+Pago [100 usuarios],404 · Not Found · No results for path: $['estado'],1
+Pago [050 usuarios],404 · Not Found · No results for path: $['estado'],1

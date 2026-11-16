@@ -1,0 +1,3 @@
+Variante,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s),Exitosas/s,Media exitosas (ms),Duración (s),Hilos máx.
+Tarifas (solo lectura),5738,1.3,2.0,23,0.0,47.9,47.9,1.3,119.9,50
+Seleccion (crea reserva),5688,2.0,3.0,27,0.0,47.9,47.9,2.0,118.7,50

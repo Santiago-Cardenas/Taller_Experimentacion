@@ -1,0 +1,7 @@
+Etiqueta,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s)
+Pago [20 usuarios],1089,1.1,2.0,3,0.0,18.5
+Pago [500 usuarios],26576,6.5,16.0,34,83.11,448.0
+SeleccionTarifaYCantidad [20 usuarios],1089,1.5,2.0,3,0.0,18.5
+SeleccionTarifaYCantidad [500 usuarios],26583,6.7,19.0,39,79.25,448.1
+Tarifas [20 usuarios],1109,1.0,2.0,13,0.0,18.5
+Tarifas [500 usuarios],27075,6.2,18.0,35,77.92,449.8

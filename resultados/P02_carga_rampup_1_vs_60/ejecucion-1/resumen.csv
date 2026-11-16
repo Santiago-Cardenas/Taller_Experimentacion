@@ -1,0 +1,7 @@
+Etiqueta,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s)
+Pago [subida 1 s],26252,3.3,10.0,23,79.85,294.3
+Pago [subida 60 s],17635,2.9,10.0,24,66.18,197.9
+SeleccionTarifaYCantidad [subida 1 s],26257,3.2,9.0,26,78.63,294.3
+SeleccionTarifaYCantidad [subida 60 s],17643,3.0,9.0,24,65.83,198.0
+Tarifas [subida 1 s],26552,3.1,9.0,102,78.02,295.6
+Tarifas [subida 60 s],17934,2.6,8.0,25,64.97,199.1

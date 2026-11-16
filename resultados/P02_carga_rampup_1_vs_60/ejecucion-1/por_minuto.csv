@@ -1,0 +1,6 @@
+variante,minuto,muestras,exitosas,media_exitosas_ms,error_pct
+subida 1 s,1,52713,16738,2.09,68.25
+subida 1 s,2,26348,0,,100.0
+subida 60 s,4,1,1,2.0,0.0
+subida 60 s,5,26858,18274,1.68,31.96
+subida 60 s,6,26353,1,4.0,100.0

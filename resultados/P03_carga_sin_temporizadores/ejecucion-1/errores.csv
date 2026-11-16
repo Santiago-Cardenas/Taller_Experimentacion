@@ -1,0 +1,15 @@
+label,mensaje,cantidad
+Tarifas [sin temporizador],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,63020
+SeleccionTarifaYCantidad [sin temporizador],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,62844
+Pago [sin temporizador],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,62809
+Pago [sin temporizador],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,10125
+SeleccionTarifaYCantidad [sin temporizador],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,10125
+Tarifas [sin temporizador],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,10094
+Pago [con temporizador],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,4650
+SeleccionTarifaYCantidad [con temporizador],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,4649
+Tarifas [con temporizador],Non HTTP response code: java.net.BindException · Non HTTP response message: Address already in use: connect · ,4648
+Pago [sin temporizador],404 · Not Found · No results for path: $['estado'],3353
+Pago [con temporizador],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · Expected to find an object with property ['estado'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,70
+SeleccionTarifaYCantidad [con temporizador],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,54
+Tarifas [con temporizador],Non HTTP response code: org.apache.http.conn.HttpHostConnectException · Non HTTP response message: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect · ,38
+Pago [con temporizador],404 · Not Found · No results for path: $['estado'],37

@@ -1,0 +1,27 @@
+﻿WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using P04_estres_escalones.jmx
+Starting standalone test @ 2026 Nov 16 14:51:22 COT (1794858682920)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    341 in 00:00:07 =   48.7/s Avg:     2 Min:     1 Max:    22 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0
+summary +   4405 in 00:00:30 =  146.7/s Avg:     1 Min:     0 Max:    32 Err:     2 (0.05%) Active: 50 Started: 50 Finished: 0
+summary =   4746 in 00:00:37 =  128.2/s Avg:     1 Min:     0 Max:    32 Err:     2 (0.04%)
+summary +   4087 in 00:03:00 =   22.7/s Avg:     1 Min:     0 Max:    17 Err:     0 (0.00%) Active: 70 Started: 120 Finished: 50
+summary =   8833 in 00:03:37 =   40.7/s Avg:     1 Min:     0 Max:    32 Err:     2 (0.02%)
+summary +   8727 in 00:00:30 =  290.8/s Avg:     1 Min:     0 Max:    28 Err:    12 (0.14%) Active: 100 Started: 150 Finished: 50
+summary =  17560 in 00:04:07 =   71.1/s Avg:     1 Min:     0 Max:    32 Err:    14 (0.08%)
+summary +   8568 in 00:03:00 =   47.6/s Avg:     1 Min:     0 Max:     6 Err:    20 (0.23%) Active: 174 Started: 324 Finished: 150
+summary =  26128 in 00:07:07 =   61.2/s Avg:     1 Min:     0 Max:    32 Err:    34 (0.13%)
+summary +  21809 in 00:00:30 =  726.9/s Avg:     2 Min:     0 Max:    22 Err:  7552 (34.63%) Active: 250 Started: 400 Finished: 150
+summary =  47937 in 00:07:37 =  104.9/s Avg:     2 Min:     0 Max:    32 Err:  7586 (15.82%)
+summary +  20533 in 00:03:00 =  114.1/s Avg:     2 Min:     0 Max:    18 Err: 17294 (84.23%) Active: 344 Started: 744 Finished: 400
+summary =  68470 in 00:10:37 =  107.5/s Avg:     2 Min:     0 Max:    32 Err: 24880 (36.34%)
+summary +  43095 in 00:00:30 = 1436.6/s Avg:     5 Min:     0 Max:    54 Err: 30387 (70.51%) Active: 500 Started: 900 Finished: 400
+summary = 111565 in 00:11:07 =  167.3/s Avg:     3 Min:     0 Max:    54 Err: 55267 (49.54%)
+summary +  33950 in 00:00:23 = 1463.8/s Avg:     6 Min:     1 Max:    34 Err: 33942 (99.98%) Active: 0 Started: 900 Finished: 900
+summary = 145515 in 00:11:30 =  210.8/s Avg:     4 Min:     0 Max:    54 Err: 89209 (61.31%)
+Tidying up ...    @ 2026 Nov 16 15:02:53 COT (1794859373194)
+... end of run

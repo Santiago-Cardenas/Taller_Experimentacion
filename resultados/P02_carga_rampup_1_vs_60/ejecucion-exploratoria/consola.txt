@@ -1,0 +1,23 @@
+﻿WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using P02_carga_rampup_1_vs_60.jmx
+Starting standalone test @ 2026 Nov 16 13:02:13 COT (1794852133072)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +  14131 in 00:00:17 =  838.7/s Avg:     5 Min:     0 Max:   198 Err: 13044 (92.31%) Active: 300 Started: 300 Finished: 0
+summary +  26682 in 00:00:30 =  889.4/s Avg:     3 Min:     0 Max:   122 Err: 15885 (59.53%) Active: 300 Started: 300 Finished: 0
+summary =  40813 in 00:00:47 =  871.1/s Avg:     4 Min:     0 Max:   198 Err: 28929 (70.88%)
+summary +  26463 in 00:00:30 =  882.3/s Avg:     3 Min:     0 Max:    29 Err: 21580 (81.55%) Active: 300 Started: 300 Finished: 0
+summary =  67276 in 00:01:17 =  875.5/s Avg:     3 Min:     0 Max:   198 Err: 50509 (75.08%)
+summary +  13728 in 00:00:30 =  457.5/s Avg:     3 Min:     0 Max:    26 Err: 13679 (99.64%) Active: 84 Started: 384 Finished: 300
+summary =  81004 in 00:01:47 =  758.1/s Avg:     3 Min:     0 Max:   198 Err: 64188 (79.24%)
+summary +  14115 in 00:00:30 =  470.5/s Avg:     0 Min:     0 Max:    13 Err: 13460 (95.36%) Active: 234 Started: 534 Finished: 300
+summary =  95119 in 00:02:17 =  695.1/s Avg:     3 Min:     0 Max:   198 Err: 77648 (81.63%)
+summary +  25574 in 00:00:30 =  852.6/s Avg:     1 Min:     0 Max:    88 Err: 14721 (57.56%) Active: 300 Started: 600 Finished: 300
+summary = 120693 in 00:02:47 =  723.4/s Avg:     3 Min:     0 Max:   198 Err: 92369 (76.53%)
+summary +  11721 in 00:00:13 =  876.8/s Avg:     3 Min:     0 Max:    68 Err:  6599 (56.30%) Active: 0 Started: 600 Finished: 600
+summary = 132414 in 00:03:00 =  734.8/s Avg:     3 Min:     0 Max:   198 Err: 98968 (74.74%)
+Tidying up ...    @ 2026 Nov 16 13:05:13 COT (1794852313370)
+... end of run

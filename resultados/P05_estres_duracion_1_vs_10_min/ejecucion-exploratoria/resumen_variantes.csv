@@ -1,0 +1,3 @@
+Variante,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s),Duración (s),Hilos máx.
+1 min,16477,0.7,1.0,19,5.23,275.1,59.9,100
+10 min,176751,1.3,3.0,55,43.54,294.6,600.0,100

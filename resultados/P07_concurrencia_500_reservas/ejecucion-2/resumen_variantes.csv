@@ -1,0 +1,2 @@
+Variante,Muestras,Media (ms),p95 (ms),Máx (ms),% Error,Rendimiento (/s),Exitosas/s,Media exitosas (ms),Duración (s),Hilos máx.
+500 a la vez,1000,73.6,148.0,297,99.1,2178.6,19.6,288.7,0.5,500

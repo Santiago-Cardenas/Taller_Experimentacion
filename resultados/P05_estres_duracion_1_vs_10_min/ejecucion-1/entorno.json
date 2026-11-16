@@ -1,0 +1,12 @@
+﻿{
+    "equipo":  "13th Gen Intel(R) Core(TM) i5-13600K",
+    "java":  "openjdk version \"17.0.20.1\" 2026-08-18",
+    "duracion_s":  819,
+    "python":  "Python 3.12.6",
+    "repeticion":  "1",
+    "pregunta":  "P05_estres_duracion_1_vs_10_min",
+    "fin":  "2026-11-16T14:20:59",
+    "inicio":  "2026-11-16T14:07:19",
+    "ram_gb":  31.7,
+    "nucleos_logicos":  20
+}

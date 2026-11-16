@@ -1,0 +1,18 @@
+# Resultados crudos de JMeter (hasta 100 MB cada uno: se regeneran al ejecutar los planes)
+*.jtl
+jmeter.log
+
+# Recortes que genera generar_documento.py
+recorte_*.png
+
+# Archivos temporales
+.parar
+~$*.docx
+__pycache__/
+
+# Sistema y editor
+.vscode/
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store
